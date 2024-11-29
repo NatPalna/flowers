@@ -1,0 +1,39 @@
+.sale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+
+.l_col {
+  width: 400px;
+}
+
+.sale_description {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+}
+
+.sale_pic {
+  display: block;
+  width: 697px;
+  height: 410px;
+  position: relative;
+}
+
+.sale_img {
+  width: 100%;
+}
+
+.sale_pic::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 27px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

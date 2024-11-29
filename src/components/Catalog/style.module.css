@@ -1,0 +1,55 @@
+.catalog__items {
+  position: relative;
+}
+
+.catalog__items::before {
+  content: "каталог услуг";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-weight: 400;
+  font-size: 220px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0.03;
+  color: #fff;
+}
+
+.catalog__item {
+  padding: 10px 10px 20px 10px;
+  width: fit-content;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.catalog__item_number {
+  position: absolute;
+  top: 50px;
+  left: 33px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.catalog__item_img {
+  margin-bottom: 20px;
+}
+
+.catalog__item_title {
+  margin-bottom: 29px;
+  min-height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.catalog__item_link {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}

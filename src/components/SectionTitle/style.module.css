@@ -1,0 +1,38 @@
+.section_title_container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.section_title_center {
+  align-items: center;
+}
+
+.section_title_left {
+  align-items: flex-start;
+}
+
+.section_title {
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.section_title_center .section_title {
+  font-size: 30px;
+}
+
+.section_title_left .section_title {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.section_title_hr {
+  margin: 20px 0 0 0;
+  width: 85px;
+  height: 1px;
+  background-color: #fff;
+  border: none;
+}

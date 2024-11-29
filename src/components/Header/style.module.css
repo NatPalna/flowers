@@ -1,0 +1,30 @@
+.header {
+  padding: 90px 0 0 0;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--color-text);
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hero__title {
+  display: flex;
+}
