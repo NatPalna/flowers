@@ -9,7 +9,7 @@ const Sale = () => {
       <div className={`${style.sale} container`}>
         <div className={style.l_col}>
           <SectionTitle text="акционные предложения" type="left" />
-          <div className={style.sale_description}>
+          <div className="section_description">
             При заказе свадебного предоставляется скидка на букет невесты и
             бутоньерку в размере 30%
           </div>
